@@ -22,7 +22,7 @@ h1,h2,h3,h4,h5,h6, p{
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
-    background: linear-gradient(90deg, rgba(185,0,165,1) 0%, rgba(9,9,121,0.9921218487394958) 35%, rgba(4,115,138,1) 100%);
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
     margin: 100px auto 0;
 }
 .search_box{
@@ -132,5 +132,15 @@ h1,h2,h3,h4,h5,h6, p{
 .weather{
     display: none;
     transition: all linear .3s;
+}
+
+.error{
+    padding-top: 30px;
+    display: none;
+}
+.error p{
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: 600;
 }
 /*========= weather card end =========== */
